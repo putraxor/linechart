@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/oval_marker"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="12dp"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text=""
+        android:textSize="12dp"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
